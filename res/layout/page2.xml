@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:padding="10dp"
+  android:gravity="center_vertical">
+	<TextView
+		android:id="@+id/page2_txt"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="text"
+		android:visibility="visible"
+		android:layout_width="fill_parent"
+		android:textColor="#FFFFFFFF"
+		android:background="#00FFFF00" />
+    
+    <Button android:id="@+id/Back" 
+    android:text="Back"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

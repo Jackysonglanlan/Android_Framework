@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AnTestActivity!</string>
+    <string name="app_name">Jacky.Song</string>
+    <string name="option_item1">aaa</string>
+    <string name="option_item2">Send 123</string>
+    <string name="context_item1">record</string>
+    <string name="context_item2">stop</string>
+    <string name="context_item3">cancel</string>
+    <string name="context_item4">play</string>
+    
+    <string name="option_inner_item1">ccc</string>
+    <string name="option_inner_item2">ddd</string>
+    
+    
+    <string name="page2_name">PageB</string>
+    
+    
+</resources>
