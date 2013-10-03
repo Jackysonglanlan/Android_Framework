@@ -3,7 +3,7 @@
  * 
  * TODO
  */
-package jacky.song;
+package jacky.song.practise;
 
 import jacky.song.android.framework.component.service.AsyncService;
 import jacky.song.android.util.Log;

@@ -22,7 +22,7 @@
       android:label="@string/page2_name">
     </activity>
 
-    <service android:name=".RefreshActivityAsyncService"></service>
+    <service android:name="jacky.song.practise.RefreshActivityAsyncService"></service>
 
   </application>
 </manifest>

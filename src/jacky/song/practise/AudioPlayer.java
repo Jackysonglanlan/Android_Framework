@@ -1,7 +1,7 @@
 /*
  * Created on Sep 1, 2011 TODO
  */
-package jacky.song;
+package jacky.song.practise;
 
 import jacky.song.android.util.SystemUtils;
 import jacky.song.android.util.closure.Closure;

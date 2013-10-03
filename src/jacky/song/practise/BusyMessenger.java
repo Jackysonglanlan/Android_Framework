@@ -3,8 +3,10 @@
  * 
  * TODO
  */
-package jacky.song;
+package jacky.song.practise;
 
+import jacky.song.R;
+import jacky.song.R.id;
 import jacky.song.android.framework.component.handler.AsyncHandler;
 import jacky.song.android.util.Log;
 import android.app.Activity;

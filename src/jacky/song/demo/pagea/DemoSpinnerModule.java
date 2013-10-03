@@ -3,14 +3,14 @@
  */
 package jacky.song.demo.pagea;
 
-import jacky.song.AudioRecorder;
 import jacky.song.R;
-import jacky.song.SecretAudioCodec;
 import jacky.song.android.framework.component.activity.Module;
 import jacky.song.android.framework.core.injector.Resources;
 import jacky.song.android.framework.core.injector.anno.res.InjectResource;
 import jacky.song.android.util.closure.Closure;
 import jacky.song.demo.pagea.DemoListModule.OperationType;
+import jacky.song.practise.AudioRecorder;
+import jacky.song.practise.SecretAudioCodec;
 
 import java.io.File;
 import java.util.ArrayList;

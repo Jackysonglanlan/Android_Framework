@@ -5,12 +5,12 @@
  */
 package jacky.song.demo.pagea;
 
-import jacky.song.RefreshActivityAsyncService;
 import jacky.song.android.framework.component.activity.BackgroundModule;
 import jacky.song.android.framework.core.injector.anno.res.InjectIncomingIntent;
 import jacky.song.android.skin.Skin;
 import jacky.song.android.skin.Style;
 import jacky.song.android.util.Log;
+import jacky.song.practise.RefreshActivityAsyncService;
 import android.app.AlertDialog;
 import android.content.*;
 import android.os.*;
