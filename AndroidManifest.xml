@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="jacky.song" android:versionCode="1" android:versionName="1.0">
+    package="jacky.song"
+    android:versionCode="1"
+    android:versionName="1.0" >
 
-  <uses-sdk android:minSdkVersion="8" />
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-  <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
-  <uses-permission android:name="android.permission.VIBRATE" />
-  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
 
-  <application android:icon="@drawable/icon" android:label="@string/app_name"
-    android:name=".demo.DemoApp">
-    <activity android:name=".demo.pagea.PageA"
-      android:launchMode="singleTask" android:label="@string/app_name">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
-    <activity android:name=".demo.pageb.PageB" android:theme="@style/Transparent"
-      android:label="@string/page2_name">
-    </activity>
+    <meta-data
+        android:name="AA_SERIALIZERS"
+        android:value="jacky.song.demo.domain.UtilDateSerializer" />
 
-    <service android:name="jacky.song.practise.RefreshActivityAsyncService"></service>
+    <application
+        android:name=".demo.DemoApp"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".demo.pagea.PageA"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-  </application>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".demo.pageb.PageB"
+            android:label="@string/page2_name"
+            android:theme="@style/Transparent" >
+        </activity>
+
+        <service android:name="jacky.song.practise.RefreshActivityAsyncService" >
+        </service>
+    </application>
+
 </manifest>
