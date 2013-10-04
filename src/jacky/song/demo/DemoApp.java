@@ -11,8 +11,7 @@ import android.app.Application;
 
 public class DemoApp extends Application {
   
-  static {
-  }
+  static {}
 
   @Override
   public void onCreate() {

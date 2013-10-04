@@ -3,25 +3,19 @@
  */
 package jacky.song.demo.pagea;
 
-import jacky.song.R;
-import jacky.song.android.framework.component.activity.Module;
-import jacky.song.android.framework.core.injector.Resources;
-import jacky.song.android.framework.core.injector.anno.res.InjectResource;
-import jacky.song.android.util.closure.Closure;
-import jacky.song.demo.pagea.DemoListModule.OperationType;
-import jacky.song.practise.AudioRecorder;
-import jacky.song.practise.SecretAudioCodec;
-
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.media.MediaRecorder;
 import android.view.*;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View.OnCreateContextMenuListener;
 import android.widget.*;
 import android.widget.AdapterView.OnItemSelectedListener;
+import jacky.song.R;
+import jacky.song.android.framework.component.activity.Module;
+import jacky.song.android.framework.core.injector.Resources;
+import jacky.song.android.framework.core.injector.anno.res.InjectResource;
+import jacky.song.demo.pagea.DemoListModule.OperationType;
 
 public class DemoSpinnerModule extends Module {
   
@@ -60,7 +54,7 @@ public class DemoSpinnerModule extends Module {
       @Override
       public View getDropDownView(int position, View convertView, ViewGroup parent) {
         View v = super.getDropDownView(position, convertView, parent);
-        v.setBackgroundColor(position % 2 == 0 ? R.color.blue : R.color.green);
+        v.setBackgroundColor(context.getResources().getColor(position % 2 == 0 ? R.color.blue : R.color.green));
         return v;
       }
     };
