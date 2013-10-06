@@ -9,6 +9,8 @@
 	<classpathentry kind="lib" path="lib/guice-3.0-no_aop.jar"/>
 	<classpathentry kind="lib" path="lib/javax.inject-1.jar"/>
 	<classpathentry kind="lib" path="lib/roboguice-2.0.jar" sourcepath="lib/roboguice-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/androidasync-1.1.8.jar"/>
+	<classpathentry kind="lib" path="lib/ion-1.1.8.jar"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
