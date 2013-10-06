@@ -6,6 +6,9 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="lib" path="lib/microlog4android-1.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/activeandroid-3.0.jar" sourcepath="lib/activeandroid-src.zip"/>
+	<classpathentry kind="lib" path="lib/guice-3.0-no_aop.jar"/>
+	<classpathentry kind="lib" path="lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="lib/roboguice-2.0.jar" sourcepath="lib/roboguice-2.0-sources.jar"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
