@@ -1102,4 +1102,18 @@ public abstract class DateUtils {
 		}
 	}
 
+	
+  private static Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("UTC"));
+
+  public static long secondsFrom1970(Date time) {
+      calendar.clear();
+      calendar.setTime(time);
+      long secondsSinceEpoch = calendar.getTimeInMillis() / 1000L;
+      return secondsSinceEpoch;
+  }
+
+  public static Date dateFromSecondsSince1970(long seconds) {
+      return new Date(seconds * 1000);
+  }
+
 }
